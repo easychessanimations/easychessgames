@@ -1,0 +1,212 @@
+{
+  "variant": "eightpiece",
+  "flip": true,
+  "gamenodes": {
+    "root": {
+      "id": "root",
+      "genalgeb": null,
+      "gensan": null,
+      "fen": "jlsesqkbnr/pppppppp/8/8/8/8/PPPPPPPP/JLneSQKBNR w KQkq - 0 1 -",
+      "childids": [
+        "root_e4"
+      ],
+      "parentid": null,
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_e4": {
+      "id": "root_e4",
+      "genalgeb": "e2e4",
+      "gensan": "e4",
+      "fen": "jlsesqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/JLneSQKBNR b KQkq - 0 1 -",
+      "childids": [
+        "root_e4_d6"
+      ],
+      "parentid": "root",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_e4_d6": {
+      "id": "root_e4_d6",
+      "genalgeb": "d7d6",
+      "gensan": "d6",
+      "fen": "jlsesqkbnr/ppp1pppp/3p4/8/4P3/8/PPPP1PPP/JLneSQKBNR w KQkq - 0 2 -",
+      "childids": [
+        "root_e4_d6_Nf3"
+      ],
+      "parentid": "root_e4",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_e4_d6_Nf3": {
+      "id": "root_e4_d6_Nf3",
+      "genalgeb": "g1f3",
+      "gensan": "Nf3",
+      "fen": "jlsesqkbnr/ppp1pppp/3p4/8/4P3/5N2/PPPP1PPP/JLneSQKB1R b KQkq - 1 2 -",
+      "childids": [
+        "root_e4_d6_Nf3_Sg4+"
+      ],
+      "parentid": "root_e4_d6",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_e4_d6_Nf3_Sg4+": {
+      "id": "root_e4_d6_Nf3_Sg4+",
+      "genalgeb": "c8g4",
+      "gensan": "Sg4+",
+      "fen": "jlse1qkbnr/ppp1pppp/3p4/8/4P1s1/5N2/PPPP1PPP/JLneSQKB1R w KQkq - 2 3 -",
+      "childids": [
+        "root_e4_d6_Nf3_Sg4+_Ke2"
+      ],
+      "parentid": "root_e4_d6_Nf3",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_e4_d6_Nf3_Sg4+_Ke2": {
+      "id": "root_e4_d6_Nf3_Sg4+_Ke2",
+      "genalgeb": "e1e2",
+      "gensan": "Ke2",
+      "fen": "jlse1qkbnr/ppp1pppp/3p4/8/4P1s1/5N2/PPPPKPPP/JLneSQ1B1R b KQkq - 3 3 -",
+      "childids": [
+        "root_e4_d6_Nf3_Sg4+_Ke2_g6"
+      ],
+      "parentid": "root_e4_d6_Nf3_Sg4+",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_e4_d6_Nf3_Sg4+_Ke2_g6": {
+      "id": "root_e4_d6_Nf3_Sg4+_Ke2_g6",
+      "genalgeb": "g7g6",
+      "gensan": "g6",
+      "fen": "jlse1qkbnr/ppp1pp1p/3p2p1/8/4P1s1/5N2/PPPPKPPP/JLneSQ1B1R w KQkq - 0 4 -",
+      "childids": [
+        "root_e4_d6_Nf3_Sg4+_Ke2_g6_d4"
+      ],
+      "parentid": "root_e4_d6_Nf3_Sg4+_Ke2",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_e4_d6_Nf3_Sg4+_Ke2_g6_d4": {
+      "id": "root_e4_d6_Nf3_Sg4+_Ke2_g6_d4",
+      "genalgeb": "d2d4",
+      "gensan": "d4",
+      "fen": "jlse1qkbnr/ppp1pp1p/3p2p1/8/3PP1s1/5N2/PPP1KPPP/JLneSQ1B1R b KQkq - 0 4 -",
+      "childids": [
+        "root_e4_d6_Nf3_Sg4+_Ke2_g6_d4_Sxf3=N@d4"
+      ],
+      "parentid": "root_e4_d6_Nf3_Sg4+_Ke2_g6",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_e4_d6_Nf3_Sg4+_Ke2_g6_d4_Sxf3=N@d4": {
+      "id": "root_e4_d6_Nf3_Sg4+_Ke2_g6_d4_Sxf3=N@d4",
+      "genalgeb": "g4f3n@d4",
+      "gensan": "Sxf3=N@d4",
+      "fen": "jlse1qkbnr/ppp1pp1p/3p2p1/8/3NP3/5s2/PPP1KPPP/JLneSQ1B1R w KQkq - 0 5 d4f3",
+      "childids": [],
+      "parentid": "root_e4_d6_Nf3_Sg4+_Ke2_g6_d4",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    }
+  },
+  "currentnodeid": "root_e4_d6_Nf3_Sg4+_Ke2_g6_d4_Sxf3=N@d4",
+  "animations": [],
+  "animationDescriptors": {},
+  "pgnHeaders": [
+    [
+      "Variant",
+      "Eightpiece"
+    ],
+    [
+      "FEN",
+      "jlsesqkbnr/pppppppp/8/8/8/8/PPPPPPPP/JLneSQKBNR w KQkq - 0 1 -"
+    ]
+  ],
+  "pgnBody": "*",
+  "timecontrol": {
+    "initial": 8,
+    "increment": 8
+  },
+  "players": {
+    "players": [
+      {
+        "glicko": {
+          "rating": 1500,
+          "rd": 250
+        },
+        "seated": false,
+        "seatedAt": null,
+        "index": 0,
+        "thinkingTime": 0,
+        "startedThinkingAt": null
+      },
+      {
+        "glicko": {
+          "rating": 1500,
+          "rd": 250
+        },
+        "seated": false,
+        "seatedAt": null,
+        "index": 1,
+        "thinkingTime": 0,
+        "startedThinkingAt": null
+      }
+    ]
+  },
+  "inProgress": false,
+  "terminated": false,
+  "result": 0,
+  "resultReason": "white resigned",
+  "startedAt": 1585586566239,
+  "terminatedAt": 1585586951715,
+  "chat": {
+    "capacity": 100,
+    "messages": []
+  },
+  "playerSeatedAfterTermination": false
+}
