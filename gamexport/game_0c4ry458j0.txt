@@ -1,0 +1,195 @@
+{
+  "variant": "eightpiece",
+  "flip": false,
+  "gamenodes": {
+    "root": {
+      "id": "root",
+      "genalgeb": null,
+      "gensan": null,
+      "fen": "jlsesqkbnr/pppppppp/8/8/8/8/PPPPPPPP/JLneSQKBNR w KQkq - 0 1 -",
+      "childids": [
+        "root_e4"
+      ],
+      "parentid": null,
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_e4": {
+      "id": "root_e4",
+      "genalgeb": "e2e4",
+      "gensan": "e4",
+      "fen": "jlsesqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/JLneSQKBNR b KQkq - 0 1 -",
+      "childids": [
+        "root_e4_d5"
+      ],
+      "parentid": "root",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_e4_d5": {
+      "id": "root_e4_d5",
+      "genalgeb": "d7d5",
+      "gensan": "d5",
+      "fen": "jlsesqkbnr/ppp1pppp/8/3p4/4P3/8/PPPP1PPP/JLneSQKBNR w KQkq - 0 2 -",
+      "childids": [
+        "root_e4_d5_Qg4"
+      ],
+      "parentid": "root_e4",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_e4_d5_Qg4": {
+      "id": "root_e4_d5_Qg4",
+      "genalgeb": "d1g4",
+      "gensan": "Qg4",
+      "fen": "jlsesqkbnr/ppp1pppp/8/3p4/4P1Q1/8/PPPP1PPP/JLneS1KBNR b KQkq - 1 2 -",
+      "childids": [
+        "root_e4_d5_Qg4_c5"
+      ],
+      "parentid": "root_e4_d5",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_e4_d5_Qg4_c5": {
+      "id": "root_e4_d5_Qg4_c5",
+      "genalgeb": "c7c5",
+      "gensan": "c5",
+      "fen": "jlsesqkbnr/pp2pppp/8/2pp4/4P1Q1/8/PPPP1PPP/JLneS1KBNR w KQkq - 0 3 -",
+      "childids": [
+        "root_e4_d5_Qg4_c5_Qd7+"
+      ],
+      "parentid": "root_e4_d5_Qg4",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_e4_d5_Qg4_c5_Qd7+": {
+      "id": "root_e4_d5_Qg4_c5_Qd7+",
+      "genalgeb": "g4d7",
+      "gensan": "Qd7+",
+      "fen": "jlsesqkbnr/pp1Qpppp/8/2pp4/4P3/8/PPPP1PPP/JLneS1KBNR b KQkq - 1 3 -",
+      "childids": [
+        "root_e4_d5_Qg4_c5_Qd7+_Sxd7=Q@h3"
+      ],
+      "parentid": "root_e4_d5_Qg4_c5",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_e4_d5_Qg4_c5_Qd7+_Sxd7=Q@h3": {
+      "id": "root_e4_d5_Qg4_c5_Qd7+_Sxd7=Q@h3",
+      "genalgeb": "c8d7q@h3",
+      "gensan": "Sxd7=Q@h3",
+      "fen": "jlse1qkbnr/pp1spppp/8/2pp4/4P3/7Q/PPPP1PPP/JLneS1KBNR w KQkq - 0 4 h3d7",
+      "childids": [],
+      "parentid": "root_e4_d5_Qg4_c5_Qd7+",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    }
+  },
+  "currentnodeid": "root_e4_d5_Qg4_c5_Qd7+_Sxd7=Q@h3",
+  "animations": [],
+  "animationDescriptors": {},
+  "pgnHeaders": [
+    [
+      "Variant",
+      "Eightpiece"
+    ],
+    [
+      "FEN",
+      "jlsesqkbnr/pppppppp/8/8/8/8/PPPPPPPP/JLneSQKBNR w KQkq - 0 1 -"
+    ]
+  ],
+  "pgnBody": "*",
+  "timecontrol": {
+    "initial": 29,
+    "increment": 29
+  },
+  "players": {
+    "players": [
+      {
+        "glicko": {
+          "rating": 1500,
+          "rd": 250
+        },
+        "seated": false,
+        "seatedAt": null,
+        "index": 0,
+        "thinkingTime": 0,
+        "startedThinkingAt": null
+      },
+      {
+        "glicko": {
+          "rating": 1500,
+          "rd": 250
+        },
+        "seated": false,
+        "seatedAt": null,
+        "index": 1,
+        "thinkingTime": 0,
+        "startedThinkingAt": null
+      }
+    ]
+  },
+  "inProgress": false,
+  "terminated": false,
+  "result": 1,
+  "resultReason": "mate",
+  "startedAt": 1585441899324,
+  "terminatedAt": 1585442498436,
+  "chat": {
+    "capacity": 100,
+    "messages": [
+      {
+        "author": {
+          "id": "25846668",
+          "username": "smartchessguiapp",
+          "provider": "github",
+          "glicko": {
+            "rating": 1500,
+            "rd": 250
+          },
+          "seated": false,
+          "seatedAt": null,
+          "index": 0,
+          "thinkingTime": 0,
+          "startedThinkingAt": null
+        },
+        "msg": "chat should have persistence now"
+      }
+    ]
+  }
+}
