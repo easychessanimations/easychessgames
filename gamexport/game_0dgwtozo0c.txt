@@ -1,0 +1,382 @@
+{
+  "variant": "eightpiece",
+  "flip": false,
+  "gamenodes": {
+    "root": {
+      "id": "root",
+      "genalgeb": null,
+      "gensan": null,
+      "fen": "jlsesqkbnr/pppppppp/8/8/8/8/PPPPPPPP/JLneSQKBNR w KQkq - 0 1 -",
+      "childids": [
+        "root_Lf5nw"
+      ],
+      "parentid": null,
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_Lf5nw": {
+      "id": "root_Lf5nw",
+      "genalgeb": "b1f5nw",
+      "gensan": "Lf5nw",
+      "fen": "jlsesqkbnr/pppppppp/8/5Lnw2/8/8/PPPPPPPP/J1SQKBNR b KQkq - 1 1 -",
+      "childids": [
+        "root_Lf5nw_Lf4w"
+      ],
+      "parentid": "root",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_Lf5nw_Lf4w": {
+      "id": "root_Lf5nw_Lf4w",
+      "genalgeb": "b8f4w",
+      "gensan": "Lf4w",
+      "fen": "j1sqkbnr/pppppppp/8/5Lnw2/5lw2/8/PPPPPPPP/J1SQKBNR w KQkq - 2 2 -",
+      "childids": [
+        "root_Lf5nw_Lf4w_b3"
+      ],
+      "parentid": "root_Lf5nw",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_Lf5nw_Lf4w_b3": {
+      "id": "root_Lf5nw_Lf4w_b3",
+      "genalgeb": "b2b3",
+      "gensan": "b3",
+      "fen": "j1sqkbnr/pppppppp/8/5Lnw2/5lw2/1P6/P1PPPPPP/J1SQKBNR b KQkq - 0 2 -",
+      "childids": [
+        "root_Lf5nw_Lf4w_b3_b6"
+      ],
+      "parentid": "root_Lf5nw_Lf4w",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_Lf5nw_Lf4w_b3_b6": {
+      "id": "root_Lf5nw_Lf4w_b3_b6",
+      "genalgeb": "b7b6",
+      "gensan": "b6",
+      "fen": "j1sqkbnr/p1pppppp/1p6/5Lnw2/5lw2/1P6/P1PPPPPP/J1SQKBNR w KQkq - 0 3 -",
+      "childids": [
+        "root_Lf5nw_Lf4w_b3_b6_Sb2"
+      ],
+      "parentid": "root_Lf5nw_Lf4w_b3",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_Lf5nw_Lf4w_b3_b6_Sb2": {
+      "id": "root_Lf5nw_Lf4w_b3_b6_Sb2",
+      "genalgeb": "c1b2",
+      "gensan": "Sb2",
+      "fen": "j1sqkbnr/p1pppppp/1p6/5Lnw2/5lw2/1P6/PSPPPPPP/J2QKBNR b KQkq - 1 3 -",
+      "childids": [
+        "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7"
+      ],
+      "parentid": "root_Lf5nw_Lf4w_b3_b6",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7": {
+      "id": "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7",
+      "genalgeb": "c8b7",
+      "gensan": "Sb7",
+      "fen": "j2qkbnr/pspppppp/1p6/5Lnw2/5lw2/1P6/PSPPPPPP/J2QKBNR w KQkq - 2 4 -",
+      "childids": [
+        "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4"
+      ],
+      "parentid": "root_Lf5nw_Lf4w_b3_b6_Sb2",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4": {
+      "id": "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4",
+      "genalgeb": "e2e4",
+      "gensan": "e4",
+      "fen": "j2qkbnr/pspppppp/1p6/5Lnw2/4Plw2/1P6/PSPP1PPP/J2QKBNR b KQkq - 0 4 -",
+      "childids": [
+        "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6"
+      ],
+      "parentid": "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6": {
+      "id": "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6",
+      "genalgeb": "e7e6",
+      "gensan": "e6",
+      "fen": "j2qkbnr/pspp1ppp/1p2p3/5Lnw2/4Plw2/1P6/PSPP1PPP/J2QKBNR w KQkq - 0 5 -",
+      "childids": [
+        "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3"
+      ],
+      "parentid": "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3": {
+      "id": "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3",
+      "genalgeb": "g1f3",
+      "gensan": "Nf3",
+      "fen": "j2qkbnr/pspp1ppp/1p2p3/5Lnw2/4Plw2/1P3N2/PSPP1PPP/J2QKB1R b KQkq - 1 5 -",
+      "childids": [
+        "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3_f6"
+      ],
+      "parentid": "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3_f6": {
+      "id": "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3_f6",
+      "genalgeb": "f7f6",
+      "gensan": "f6",
+      "fen": "j2qkbnr/pspp2pp/1p2pp2/5Lnw2/4Plw2/1P3N2/PSPP1PPP/J2QKB1R w KQkq - 0 6 -",
+      "childids": [
+        "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3_f6_d4"
+      ],
+      "parentid": "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3_f6_d4": {
+      "id": "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3_f6_d4",
+      "genalgeb": "d2d4",
+      "gensan": "d4",
+      "fen": "j2qkbnr/pspp2pp/1p2pp2/5Lnw2/3PPlw2/1P3N2/PSP2PPP/J2QKB1R b KQkq - 0 6 -",
+      "childids": [
+        "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3_f6_d4_g6"
+      ],
+      "parentid": "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3_f6",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3_f6_d4_g6": {
+      "id": "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3_f6_d4_g6",
+      "genalgeb": "g7g6",
+      "gensan": "g6",
+      "fen": "j2qkbnr/pspp3p/1p2ppp1/5Lnw2/3PPlw2/1P3N2/PSP2PPP/J2QKB1R w KQkq - 0 7 -",
+      "childids": [
+        "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3_f6_d4_g6_d5"
+      ],
+      "parentid": "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3_f6_d4",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3_f6_d4_g6_d5": {
+      "id": "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3_f6_d4_g6_d5",
+      "genalgeb": "d4d5",
+      "gensan": "d5",
+      "fen": "j2qkbnr/pspp3p/1p2ppp1/3P1Lnw2/4Plw2/1P3N2/PSP2PPP/J2QKB1R b KQkq - 0 7 -",
+      "childids": [
+        "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3_f6_d4_g6_d5_Bb4+"
+      ],
+      "parentid": "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3_f6_d4_g6",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3_f6_d4_g6_d5_Bb4+": {
+      "id": "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3_f6_d4_g6_d5_Bb4+",
+      "genalgeb": "f8b4",
+      "gensan": "Bb4+",
+      "fen": "j2qk1nr/pspp3p/1p2ppp1/3P1Lnw2/1b2Plw2/1P3N2/PSP2PPP/J2QKB1R w KQkq - 1 8 -",
+      "childids": [
+        "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3_f6_d4_g6_d5_Bb4+_c3"
+      ],
+      "parentid": "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3_f6_d4_g6_d5",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3_f6_d4_g6_d5_Bb4+_c3": {
+      "id": "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3_f6_d4_g6_d5_Bb4+_c3",
+      "genalgeb": "c2c3",
+      "gensan": "c3",
+      "fen": "j2qk1nr/pspp3p/1p2ppp1/3P1Lnw2/1b2Plw2/1PP2N2/PS3PPP/J2QKB1R b KQkq - 0 8 -",
+      "childids": [
+        "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3_f6_d4_g6_d5_Bb4+_c3_Nh6"
+      ],
+      "parentid": "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3_f6_d4_g6_d5_Bb4+",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3_f6_d4_g6_d5_Bb4+_c3_Nh6": {
+      "id": "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3_f6_d4_g6_d5_Bb4+_c3_Nh6",
+      "genalgeb": "g8h6",
+      "gensan": "Nh6",
+      "fen": "j2qk2r/pspp3p/1p2pppn/3P1Lnw2/1b2Plw2/1PP2N2/PS3PPP/J2QKB1R w KQkq - 1 9 -",
+      "childids": [
+        "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3_f6_d4_g6_d5_Bb4+_c3_Nh6_Be2"
+      ],
+      "parentid": "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3_f6_d4_g6_d5_Bb4+_c3",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3_f6_d4_g6_d5_Bb4+_c3_Nh6_Be2": {
+      "id": "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3_f6_d4_g6_d5_Bb4+_c3_Nh6_Be2",
+      "genalgeb": "f1e2",
+      "gensan": "Be2",
+      "fen": "j2qk2r/pspp3p/1p2pppn/3P1Lnw2/1b2Plw2/1PP2N2/PS2BPPP/J2QK2R b KQkq - 2 9 -",
+      "childids": [
+        "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3_f6_d4_g6_d5_Bb4+_c3_Nh6_Be2_c6"
+      ],
+      "parentid": "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3_f6_d4_g6_d5_Bb4+_c3_Nh6",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3_f6_d4_g6_d5_Bb4+_c3_Nh6_Be2_c6": {
+      "id": "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3_f6_d4_g6_d5_Bb4+_c3_Nh6_Be2_c6",
+      "genalgeb": "c7c6",
+      "gensan": "c6",
+      "fen": "j2qk2r/ps1p3p/1pp1pppn/3P1Lnw2/1b2Plw2/1PP2N2/PS2BPPP/J2QK2R w KQkq - 0 10 -",
+      "childids": [],
+      "parentid": "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3_f6_d4_g6_d5_Bb4+_c3_Nh6_Be2",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    }
+  },
+  "currentnodeid": "root_Lf5nw_Lf4w_b3_b6_Sb2_Sb7_e4_e6_Nf3_f6_d4_g6_d5_Bb4+_c3_Nh6_Be2_c6",
+  "animations": [],
+  "animationDescriptors": {},
+  "pgnHeaders": [
+    [
+      "Variant",
+      "Eightpiece"
+    ],
+    [
+      "FEN",
+      "jlsesqkbnr/pppppppp/8/8/8/8/PPPPPPPP/JLneSQKBNR w KQkq - 0 1 -"
+    ]
+  ],
+  "pgnBody": "*",
+  "timecontrol": {
+    "initial": 15,
+    "increment": 20
+  },
+  "players": {
+    "players": [
+      {
+        "glicko": {
+          "rating": 1500,
+          "rd": 250
+        },
+        "seated": false,
+        "seatedAt": null,
+        "index": 0,
+        "thinkingTime": 0,
+        "startedThinkingAt": null
+      },
+      {
+        "glicko": {
+          "rating": 1500,
+          "rd": 250
+        },
+        "seated": false,
+        "seatedAt": null,
+        "index": 1,
+        "thinkingTime": 0,
+        "startedThinkingAt": null
+      }
+    ]
+  },
+  "inProgress": false,
+  "terminated": false,
+  "result": 0,
+  "resultReason": "white resigned",
+  "startedAt": 1585641286550,
+  "terminatedAt": 1585641423463,
+  "chat": {
+    "capacity": 100,
+    "messages": []
+  },
+  "playerSeatedAfterTermination": false
+}
