@@ -1,0 +1,159 @@
+{
+  "variant": "eightpiece",
+  "flip": false,
+  "gamenodes": {
+    "root": {
+      "id": "root",
+      "genalgeb": null,
+      "gensan": null,
+      "fen": "jlsesqkbnr/pppppppp/8/8/8/8/PPPPPPPP/JLneSQKBNR w KQkq - 0 1 -",
+      "childids": [
+        "root_c3"
+      ],
+      "parentid": null,
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_c3": {
+      "id": "root_c3",
+      "genalgeb": "c2c3",
+      "gensan": "c3",
+      "fen": "jlsesqkbnr/pppppppp/8/8/8/2P5/PP1PPPPP/JLneSQKBNR b KQkq - 0 1 -",
+      "childids": [
+        "root_c3_b6"
+      ],
+      "parentid": "root",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_c3_b6": {
+      "id": "root_c3_b6",
+      "genalgeb": "b7b6",
+      "gensan": "b6",
+      "fen": "jlsesqkbnr/p1pppppp/1p6/8/8/2P5/PP1PPPPP/JLneSQKBNR w KQkq - 0 2 -",
+      "childids": [
+        "root_c3_b6_Nf3"
+      ],
+      "parentid": "root_c3",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_c3_b6_Nf3": {
+      "id": "root_c3_b6_Nf3",
+      "genalgeb": "g1f3",
+      "gensan": "Nf3",
+      "fen": "jlsesqkbnr/p1pppppp/1p6/8/8/2P2N2/PP1PPPPP/JLneSQKB1R b KQkq - 1 2 -",
+      "childids": [
+        "root_c3_b6_Nf3_Sb7+"
+      ],
+      "parentid": "root_c3_b6",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_c3_b6_Nf3_Sb7+": {
+      "id": "root_c3_b6_Nf3_Sb7+",
+      "genalgeb": "c8b7",
+      "gensan": "Sb7+",
+      "fen": "jlse1qkbnr/pspppppp/1p6/8/8/2P2N2/PP1PPPPP/JLneSQKB1R w KQkq - 2 3 -",
+      "childids": [
+        "root_c3_b6_Nf3_Sb7+_e4"
+      ],
+      "parentid": "root_c3_b6_Nf3",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_c3_b6_Nf3_Sb7+_e4": {
+      "id": "root_c3_b6_Nf3_Sb7+_e4",
+      "genalgeb": "e2e4",
+      "gensan": "e4",
+      "fen": "jlse1qkbnr/pspppppp/1p6/8/4P3/2P2N2/PP1P1PPP/JLneSQKB1R b KQkq - 0 3 -",
+      "childids": [],
+      "parentid": "root_c3_b6_Nf3_Sb7+",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    }
+  },
+  "currentnodeid": "root_c3_b6_Nf3_Sb7+_e4",
+  "animations": [],
+  "animationDescriptors": {},
+  "pgnHeaders": [
+    [
+      "Variant",
+      "Eightpiece"
+    ],
+    [
+      "FEN",
+      "jlsesqkbnr/pppppppp/8/8/8/8/PPPPPPPP/JLneSQKBNR w KQkq - 0 1 -"
+    ]
+  ],
+  "pgnBody": "1.e4 d5 2.Qf3 d4 3.Ne2 e5 4.h4 Nc6 5.Qb3 Nf6 6.Ng3 Qd7 7.Be2 b6 8.a3 Qd6 9.Qb5",
+  "timecontrol": {
+    "initial": 3,
+    "increment": 2
+  },
+  "players": {
+    "players": [
+      {
+        "glicko": {
+          "rating": 1500,
+          "rd": 250
+        },
+        "seated": false,
+        "seatedAt": null,
+        "index": 0,
+        "thinkingTime": 0,
+        "startedThinkingAt": null
+      },
+      {
+        "glicko": {
+          "rating": 1500,
+          "rd": 250
+        },
+        "seated": false,
+        "seatedAt": null,
+        "index": 1,
+        "thinkingTime": 0,
+        "startedThinkingAt": null
+      }
+    ]
+  },
+  "inProgress": false,
+  "terminated": false,
+  "resultReason": "in progress",
+  "startedAt": null,
+  "terminatedAt": null,
+  "chat": {
+    "capacity": 100,
+    "messages": []
+  }
+}
