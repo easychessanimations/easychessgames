@@ -1,0 +1,278 @@
+{
+  "variant": "eightpiece",
+  "flip": false,
+  "gamenodes": {
+    "root": {
+      "id": "root",
+      "genalgeb": null,
+      "gensan": null,
+      "fen": "jlsesqkbnr/pppppppp/8/8/8/8/PPPPPPPP/JLneSQKBNR w KQkq - 0 1 -",
+      "childids": [
+        "root_Nf3"
+      ],
+      "parentid": null,
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_Nf3": {
+      "id": "root_Nf3",
+      "genalgeb": "g1f3",
+      "gensan": "Nf3",
+      "fen": "jlsesqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/JLneSQKB1R b KQkq - 1 1 -",
+      "childids": [
+        "root_Nf3_d5"
+      ],
+      "parentid": "root",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_Nf3_d5": {
+      "id": "root_Nf3_d5",
+      "genalgeb": "d7d5",
+      "gensan": "d5",
+      "fen": "jlsesqkbnr/ppp1pppp/8/3p4/8/5N2/PPPPPPPP/JLneSQKB1R w KQkq - 0 2 -",
+      "childids": [
+        "root_Nf3_d5_Ng5"
+      ],
+      "parentid": "root_Nf3",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "White plays Ng5 with the idea of taking on h7.",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_Nf3_d5_Ng5": {
+      "id": "root_Nf3_d5_Ng5",
+      "genalgeb": "f3g5",
+      "gensan": "Ng5",
+      "fen": "jlsesqkbnr/ppp1pppp/8/3p2N1/8/8/PPPPPPPP/JLneSQKB1R b KQkq - 1 2 -",
+      "childids": [
+        "root_Nf3_d5_Ng5_e5"
+      ],
+      "parentid": "root_Nf3_d5",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "You would expect some defensive move like g6. However engine plays e5.\n#wrg5h7#rh7#wrb1h7",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_Nf3_d5_Ng5_e5": {
+      "id": "root_Nf3_d5_Ng5_e5",
+      "genalgeb": "e7e5",
+      "gensan": "e5",
+      "fen": "jlsesqkbnr/ppp2ppp/8/3pp1N1/8/8/PPPPPPPP/JLneSQKB1R w KQkq - 0 3 -",
+      "childids": [
+        "root_Nf3_d5_Ng5_e5_Nxh7"
+      ],
+      "parentid": "root_Nf3_d5_Ng5",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "White can now take.",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_Nf3_d5_Ng5_e5_Nxh7": {
+      "id": "root_Nf3_d5_Ng5_e5_Nxh7",
+      "genalgeb": "g5h7",
+      "gensan": "Nxh7",
+      "fen": "jlsesqkbnr/ppp2ppN/8/3pp3/8/8/PPPPPPPP/JLneSQKB1R b KQkq - 0 3 -",
+      "childids": [
+        "root_Nf3_d5_Ng5_e5_Nxh7_Sg4"
+      ],
+      "parentid": "root_Nf3_d5_Ng5_e5",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_Nf3_d5_Ng5_e5_Nxh7_Sg4": {
+      "id": "root_Nf3_d5_Ng5_e5_Nxh7_Sg4",
+      "genalgeb": "c8g4",
+      "gensan": "Sg4",
+      "fen": "jlse1qkbnr/ppp2ppN/8/3pp3/6s1/8/PPPPPPPP/JLneSQKB1R w KQkq - 1 4 -",
+      "childids": [
+        "root_Nf3_d5_Ng5_e5_Nxh7_Sg4_f3"
+      ],
+      "parentid": "root_Nf3_d5_Ng5_e5_Nxh7",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "Sentry threatens the queen, so f3 has to be played.\n#wrg4d1",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_Nf3_d5_Ng5_e5_Nxh7_Sg4_f3": {
+      "id": "root_Nf3_d5_Ng5_e5_Nxh7_Sg4_f3",
+      "genalgeb": "f2f3",
+      "gensan": "f3",
+      "fen": "jlse1qkbnr/ppp2ppN/8/3pp3/6s1/5P2/PPPPP1PP/JLneSQKB1R b KQkq - 0 4 -",
+      "childids": [
+        "root_Nf3_d5_Ng5_e5_Nxh7_Sg4_f3_Qh4+"
+      ],
+      "parentid": "root_Nf3_d5_Ng5_e5_Nxh7_Sg4",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "Now it becomes clear why e5 was played.",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_Nf3_d5_Ng5_e5_Nxh7_Sg4_f3_Qh4+": {
+      "id": "root_Nf3_d5_Ng5_e5_Nxh7_Sg4_f3_Qh4+",
+      "genalgeb": "d8h4",
+      "gensan": "Qh4+",
+      "fen": "jlse2kbnr/ppp2ppN/8/3pp3/6sq/5P2/PPPPP1PP/JLneSQKB1R w KQkq - 1 5 -",
+      "childids": [
+        "root_Nf3_d5_Ng5_e5_Nxh7_Sg4_f3_Qh4+_g3"
+      ],
+      "parentid": "root_Nf3_d5_Ng5_e5_Nxh7_Sg4_f3",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "Again only move is g3.\n#wrh4e1",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_Nf3_d5_Ng5_e5_Nxh7_Sg4_f3_Qh4+_g3": {
+      "id": "root_Nf3_d5_Ng5_e5_Nxh7_Sg4_f3_Qh4+_g3",
+      "genalgeb": "g2g3",
+      "gensan": "g3",
+      "fen": "jlse2kbnr/ppp2ppN/8/3pp3/6sq/5PP1/PPPPP2P/JLneSQKB1R b KQkq - 0 5 -",
+      "childids": [
+        "root_Nf3_d5_Ng5_e5_Nxh7_Sg4_f3_Qh4+_g3_Qxg3+"
+      ],
+      "parentid": "root_Nf3_d5_Ng5_e5_Nxh7_Sg4_f3_Qh4+",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "Get this. Black can now take on g3.",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_Nf3_d5_Ng5_e5_Nxh7_Sg4_f3_Qh4+_g3_Qxg3+": {
+      "id": "root_Nf3_d5_Ng5_e5_Nxh7_Sg4_f3_Qh4+_g3_Qxg3+",
+      "genalgeb": "h4g3",
+      "gensan": "Qxg3+",
+      "fen": "jlse2kbnr/ppp2ppN/8/3pp3/6s1/5Pq1/PPPPP2P/JLneSQKB1R w KQkq - 0 6 -",
+      "childids": [
+        "root_Nf3_d5_Ng5_e5_Nxh7_Sg4_f3_Qh4+_g3_Qxg3+_hxg3"
+      ],
+      "parentid": "root_Nf3_d5_Ng5_e5_Nxh7_Sg4_f3_Qh4+_g3",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_Nf3_d5_Ng5_e5_Nxh7_Sg4_f3_Qh4+_g3_Qxg3+_hxg3": {
+      "id": "root_Nf3_d5_Ng5_e5_Nxh7_Sg4_f3_Qh4+_g3_Qxg3+_hxg3",
+      "genalgeb": "h2g3",
+      "gensan": "hxg3",
+      "fen": "jlse2kbnr/ppp2ppN/8/3pp3/6s1/5PP1/PPPPP3/JLneSQKB1R b KQkq - 0 6 -",
+      "childids": [
+        "root_Nf3_d5_Ng5_e5_Nxh7_Sg4_f3_Qh4+_g3_Qxg3+_hxg3_Lxg3sw"
+      ],
+      "parentid": "root_Nf3_d5_Ng5_e5_Nxh7_Sg4_f3_Qh4+_g3_Qxg3+",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "Final blow, mate by lancer.",
+      "hasEval": false,
+      "eval": null
+    },
+    "root_Nf3_d5_Ng5_e5_Nxh7_Sg4_f3_Qh4+_g3_Qxg3+_hxg3_Lxg3sw": {
+      "id": "root_Nf3_d5_Ng5_e5_Nxh7_Sg4_f3_Qh4+_g3_Qxg3+_hxg3_Lxg3sw",
+      "genalgeb": "b8g3lsw",
+      "gensan": "Lxg3sw",
+      "fen": "j3kbnr/ppp2ppN/8/3pp3/6s1/5Plsw1/PPPPP3/JLneSQKB1R w KQkq - 0 7 -",
+      "childids": [],
+      "parentid": "root_Nf3_d5_Ng5_e5_Nxh7_Sg4_f3_Qh4+_g3_Qxg3+_hxg3",
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "#wrg3e1",
+      "hasEval": false,
+      "eval": null
+    }
+  },
+  "currentnodeid": "root_Nf3_d5_Ng5_e5_Nxh7_Sg4_f3_Qh4+_g3_Qxg3+_hxg3_Lxg3sw",
+  "animations": [],
+  "animationDescriptors": {},
+  "pgnHeaders": [
+    [
+      "Variant",
+      "Eightpiece"
+    ],
+    [
+      "FEN",
+      "jlsesqkbnr/pppppppp/8/8/8/8/PPPPPPPP/JLneSQKBNR w KQkq - 0 1 -"
+    ]
+  ],
+  "pgnBody": "1.e4 d5 2.Qf3 d4 3.Ne2 e5 4.h4 Nc6 5.Qb3 Nf6 6.Ng3 Qd7 7.Be2 b6 8.a3 Qd6 9.Qb5",
+  "timecontrol": {
+    "initial": 3,
+    "increment": 2
+  },
+  "players": {
+    "players": [
+      {
+        "glicko": {
+          "rating": 1500,
+          "rd": 250
+        },
+        "seated": false,
+        "seatedAt": null,
+        "index": 0,
+        "thinkingTime": 0,
+        "startedThinkingAt": null
+      },
+      {
+        "glicko": {
+          "rating": 1500,
+          "rd": 250
+        },
+        "seated": false,
+        "seatedAt": null,
+        "index": 1,
+        "thinkingTime": 0,
+        "startedThinkingAt": null
+      }
+    ]
+  },
+  "inProgress": false,
+  "terminated": false,
+  "resultReason": "in progress",
+  "startedAt": null,
+  "terminatedAt": null,
+  "chat": {
+    "capacity": 100,
+    "messages": []
+  }
+}
