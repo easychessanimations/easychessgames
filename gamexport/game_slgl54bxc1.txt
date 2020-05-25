@@ -1,0 +1,74 @@
+{
+  "variant": "eightpiece",
+  "flip": false,
+  "gamenodes": {
+    "root": {
+      "id": "root",
+      "genalgeb": null,
+      "gensan": null,
+      "fen": "jlsesqkbnr/pppppppp/8/8/8/8/PPPPPPPP/JLneSQKBNR w KQkq - 0 1 -",
+      "childids": [],
+      "parentid": null,
+      "weights": [
+        0,
+        0
+      ],
+      "comment": "[Variant \"Eightpiece\"]\n[FEN \"jlsesqkbnr/pppppppp/8/8/8/8/PPPPPPPP/JLneSQKBNR w KQkq - 0 1 -\"]\n\n",
+      "hasEval": false,
+      "eval": null
+    }
+  },
+  "currentnodeid": "root",
+  "animations": [],
+  "animationDescriptors": {},
+  "pgnHeaders": [
+    [
+      "Variant",
+      "Eightpiece"
+    ],
+    [
+      "FEN",
+      "jlsesqkbnr/pppppppp/8/8/8/8/PPPPPPPP/JLneSQKBNR w KQkq - 0 1 -"
+    ]
+  ],
+  "pgnBody": "r1b2rk1/1p1n1ppp/2p5/p7/B2N4/2P5/PP3PPP/R4RK1 w - - 0 15",
+  "timecontrol": {
+    "initial": 3,
+    "increment": 2
+  },
+  "players": {
+    "players": [
+      {
+        "glicko": {
+          "rating": 1500,
+          "rd": 250
+        },
+        "seated": false,
+        "seatedAt": null,
+        "index": 0,
+        "thinkingTime": 0,
+        "startedThinkingAt": null
+      },
+      {
+        "glicko": {
+          "rating": 1500,
+          "rd": 250
+        },
+        "seated": false,
+        "seatedAt": null,
+        "index": 1,
+        "thinkingTime": 0,
+        "startedThinkingAt": null
+      }
+    ]
+  },
+  "inProgress": false,
+  "terminated": false,
+  "resultReason": "in progress",
+  "startedAt": null,
+  "terminatedAt": null,
+  "chat": {
+    "capacity": 100,
+    "messages": []
+  }
+}
